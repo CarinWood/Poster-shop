@@ -18,7 +18,11 @@ export const Home = () => {
     })}
 
     {bigPosters.map((poster) => {
-      return <BigCard img={poster.img} title={poster.title}/>
+      return <BigCard 
+                key={poster.id} 
+                img={poster.img} 
+                title={poster.title}
+              />
     })}
 
     </div>

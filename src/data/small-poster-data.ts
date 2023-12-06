@@ -15,45 +15,63 @@ export const smallPosters = [
         id: 1,
         title: "Astronaut",
         img: astronaut,
+        quantity: 0,
+        price: 17.9
     },
     {
         id: 2,
         title: "Ninja",
         img: ninja,
+        quantity: 0,
+        price: 17.9
     },
     {
         id: 3,
         title: "Nerd",
         img: nerd,
+        quantity: 0,
+        price: 17.9
     },
     {
         id: 4,
         title: "Diver",
         img: diver,
+        quantity: 0,
+        price: 17.9
     },
     {
         id: 5,
         title: "Clown",
         img: clown,
+        quantity: 0,
+        price: 17.9
     },
     {
         id: 6,
         title: "Police",
         img: police,
+        quantity: 0,
+        price: 17.9
     },
     {
         id: 7,
         title: "Fairy",
         img: fairy,
+        quantity: 0,
+        price: 17.9
     },
     {
         id: 8,
         title: "Doctor",
         img: doctor,
+        quantity: 0,
+        price: 17.9
     },
     {
         id: 9,
         title: "Guitarrist",
         img: guitarrist,
+        quantity: 0,
+        price: 17.9
     },
 ]

@@ -1,5 +1,6 @@
 import {FC} from 'react'
 import "./card.css";
+import { useShoppingCart } from '../../contexts/CartContext';
 
 
 interface CardProps {
@@ -8,6 +9,11 @@ interface CardProps {
 }
 
 export const Card:FC<CardProps> = ({title, img}) => {
+
+  const {cart, setCart} = useShoppingCart()
+
+  console.log(cart)
+
   return (
     <div className="card">
       <img className="card-img" src={img} alt={title} />
