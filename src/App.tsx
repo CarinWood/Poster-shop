@@ -5,25 +5,18 @@ import { Footer } from './components/footer/Footer';
 import { Header } from './components/header/Header';
 import { bigPosters } from './data/big-poster-data';
 import { smallPosters } from './data/small-poster-data';
+import { Cart } from './pages/Cart';
+import { Home } from './pages/Home';
+import {Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
     <div className="app">
-      <Header/>
-      <div className='poster-area'>
-      {smallPosters.map((poster) => {
-        return <Card 
-                  key={poster.id} 
-                  title={poster.title} 
-                  img={poster.img}
-                />
-      })}
-
-      {bigPosters.map((poster) => {
-        return <BigCard img={poster.img} title={poster.title}/>
-      })}
-
-      </div>
+      <Routes>
+        <Route path="/" element={  <Home/>} />
+        <Route path="/cart" element={<Cart/>} />
+      </Routes>
+   
       <Footer/>
     </div>
   );
