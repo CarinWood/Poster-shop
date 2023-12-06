@@ -1,0 +1,10 @@
+.cart-header {
+    width: 100%;
+    height: 60vh;
+    background-color: #3de07e;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
