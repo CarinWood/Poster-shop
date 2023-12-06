@@ -23,9 +23,8 @@ function App() {
         return <BigCard img={poster.img} title={poster.title}/>
       })}
 
-      <Footer/>
-
       </div>
+      <Footer/>
     </div>
   );
 }
