@@ -1,0 +1,33 @@
+.card {
+    margin: 30px 10px;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: "Roboto-bold";
+    letter-spacing: 0.5px;
+
+}
+
+.card-text {
+    margin-top: 10px;
+    width: 300px;
+    font-size: 12px;
+}
+
+.card-img {
+    width: 300px;
+    border-radius: 3px;
+}
+
+.card-btn {
+    background-color:rgb(255, 81, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
