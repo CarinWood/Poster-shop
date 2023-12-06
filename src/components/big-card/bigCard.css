@@ -1,0 +1,42 @@
+.big-card {
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-card-img {
+    width: 470px;
+}
+
+article {
+    width: 470px;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+}
+
+.big-card-title {
+    color: black;
+    font-family: "Roboto-bold";
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+}
+
+.big-card-text {
+    margin-top: 20px;
+    width: 400px;
+    color: black;
+}
+
+.big-card-btn {
+    padding: 10px 20px;
+    border-radius: 3px;
+    border:none;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    cursor: pointer;
+}
