@@ -20,6 +20,18 @@
     width: 300px;
 }
 
+.btnPrice {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
 .card-btn {
     background-color:#e83f57;
     color: white;
@@ -27,6 +39,15 @@
     border-radius: 5px;
     padding: 10px 15px;
     font-size: 15px;
-    margin-top: 30px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.card-btn:hover {
+    background-color: #8b1728;
+}
+
+.card-btn:active {
+    transform: translateY(2px);
 }

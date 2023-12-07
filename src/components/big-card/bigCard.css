@@ -39,4 +39,13 @@ article {
     font-size: 18px;
     margin-top: 50px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.big-card-btn:hover {
+    background-color: #8b1728;
+}
+
+.big-card-btn:active {
+    transform: translateY(2px);
 }

@@ -1,9 +1,51 @@
 .cart {
-    border: 1px solid white;
-    width: 70%;
+    width: 50%;
     padding: 50px 0px;
 }
 
 .cart-headline {
     font-size: 25px;
+    margin-bottom: 30px;
 }
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #340809;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.banner p {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+
+.summary {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-family: "Roboto-bold";
+    padding: 5px;
+}
+
+.summary p {
+    width: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+
+.gimmie-btn {
+    
+}
+

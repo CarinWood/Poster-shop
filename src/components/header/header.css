@@ -23,3 +23,38 @@ header {
     width: 200px;
 }
 
+.cart-icon-frame {
+    background-color: #e83f57;
+    color: whitesmoke;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 3%;
+    top: 5%;
+    cursor: pointer;
+}
+
+.cart-icon {
+    font-size: 20px;
+}
+
+.digit {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #edd364;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 14%;
+    left: 22%;
+    font-size: 12px;
+    padding: 3px;
+}
+

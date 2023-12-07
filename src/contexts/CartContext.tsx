@@ -1,22 +1,18 @@
 import { ReactNode, createContext, useContext, useState } from "react";
+import { CartItem } from "../types/cartTypes";
 
 
 type shoppingCartContext = {
-    cart: cartItem[];
-    setCart: React.Dispatch<React.SetStateAction<cartItem[]>>;
+    cart: CartItem[];
+    setCart: React.Dispatch<React.SetStateAction<CartItem[]>>;
+    handlePlus: (_id: number) => void;
 }
 
 type cartProviderProps = {
     children: ReactNode
 }
 
-type cartItem = {
-    id: number
-    title: string
-    img: string
-    price: number
-    quantity: number
-}
+
 const cartContext = createContext({} as shoppingCartContext)
 
 export function useShoppingCart() {
@@ -26,15 +22,25 @@ export function useShoppingCart() {
 
 
 export const CartProvider = ({children}: cartProviderProps) => {
-        const [cart, setCart] = useState<cartItem[]>([])
+        const [cart, setCart] = useState<CartItem[]>([])
 
+        const handlePlus = (_id: number) => {
+          const updatedCart = cart.map(item => {
+            if (item.id === _id) {
+              return { ...item, quantity: item.quantity + 1 }; 
+            }
+            return item;
+          });
+          setCart(updatedCart)
+        }
 
 
   return (
     <cartContext.Provider
         value={{
           cart,
-          setCart
+          setCart,
+          handlePlus
         }}
     >
             {children}

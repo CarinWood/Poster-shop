@@ -17,7 +17,6 @@ function App() {
         <Route path="/" element={  <Home/>} />
         <Route path="/checkout" element={<Checkout/>} />
       </Routes>
-   
       <Footer/>
     </div>
     </CartProvider>
