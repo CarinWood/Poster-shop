@@ -7,12 +7,41 @@
 }
 
 .cart-product p {
-    width: 300px;
+    width: 200px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     font-size: 18px;
     margin-top: 5px;
+}
+
+.cart-product span {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.quantity-box {
+    display: flex;
+    align-items: center;
+    padding-left: 23px;
+}
+
+.price-box {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-icon {
+    font-size: 22px; 
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.delete-icon:hover {
+    opacity: 0.5;
 }
 
 .divider {

@@ -19,11 +19,15 @@
 }
 
 .banner p {
-    width: 300px;
+    width: 100px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     font-size: 18px;
+}
+
+.banner span {
+    width: 50px;
 }
 
 .summary {
@@ -45,7 +49,29 @@
     font-size: 20px;
 }
 
-.gimmie-btn {
-    
+.gimmie-btn-area {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
 }
 
+.gimmie-btn {
+    background-color:#e83f57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.gimmie-btn:active {
+    transform: translateY(2px);
+}
+
+.gimmie-btn:hover {
+    background-color: #8b1728;
+}

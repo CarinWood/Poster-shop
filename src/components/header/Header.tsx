@@ -10,9 +10,12 @@ export const Header = () => {
   const toCheckoutPage = () => {
     navigate('/checkout')
   }
+
+
   return (
     <header>
         <h1 className='heading'>Poster Shop</h1>
+   
         <img 
             className='header-img'
             src={ninjahead} 

@@ -25,8 +25,10 @@ export const Home = () => {
     {bigPosters.map((poster) => {
       return <BigCard 
                 key={poster.id} 
-                img={poster.img} 
-                title={poster.title}
+                _id={poster.id}
+                _img={poster.img} 
+                _title={poster.title}
+                _price={poster.price}
 
               />
     })}
