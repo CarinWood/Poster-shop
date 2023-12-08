@@ -37,3 +37,23 @@ footer {
     width: 22px;
     margin: 0px 6px;
 }
+
+@media screen and (max-width: 551px) {
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: #333333;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-headline {
+        font-size: 19px;
+    }
+
+    .nav, .address, .socials {
+        width: 150px;
+        height: 80px;
+        margin-top: 20px;
+    }
+}

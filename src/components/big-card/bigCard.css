@@ -49,3 +49,31 @@ article {
 .big-card-btn:active {
     transform: translateY(2px);
 }
+
+@media screen and (max-width: 551px) {
+    .big-card-img {
+        width: 280px;
+    }
+
+    article {
+        width: 280px;
+        background-color: whitesmoke;
+        padding: 10px 20px;
+    }
+
+    .big-card-text {
+        font-size: 12px;
+        margin-top: 20px;
+        width: 250px;
+    }
+    
+    .big-card-title {
+    font-size: 25px;
+    margin-top: 10px;
+    }
+
+    .big-card-btn {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}

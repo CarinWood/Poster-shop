@@ -21,3 +21,9 @@
 .back:hover {
     color: #e83f57;
 }
+
+@media screen and (max-width: 551px) {
+    .cart-header {
+        height: 35vh;
+    }
+}
