@@ -5,6 +5,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .footer-headline {
@@ -38,6 +39,13 @@ footer {
     margin: 0px 6px;
 }
 
+.credits {
+    font-size: 12px;
+    position: absolute;
+    bottom: 2%;
+    color: whitesmoke;
+}
+
 @media screen and (max-width: 551px) {
     footer {
         width: 100%;
@@ -45,6 +53,7 @@ footer {
         background-color: #333333;
         display: flex;
         flex-wrap: wrap;
+        padding-bottom: 40px;
     }
 
     .footer-headline {
@@ -55,5 +64,12 @@ footer {
         width: 150px;
         height: 80px;
         margin-top: 20px;
+    }
+
+    .credits {
+        font-size: 10px;
+        position: absolute;
+        bottom: 2%;
+        color: whitesmoke;
     }
 }

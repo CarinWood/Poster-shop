@@ -27,6 +27,7 @@ export const Footer = () => {
           <img src={instagram} alt="instagram" className='icon'/>
         </div>
       </div>
+      <p className='credits'>Created and built by Carin Wood</p>
     </footer>
   )
 }
