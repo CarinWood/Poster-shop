@@ -2,6 +2,8 @@
 
 ## Made with React and TypeScript
 
+Visit project here: https://poster-shop-carinwood.vercel.app/
+
 <img src="./src/assets/images/screenshot1.png" alt="screenshot" width="300" />
 
 <img src="./src/assets/images/screenshot3.png" alt="screenshot" width="300" />
