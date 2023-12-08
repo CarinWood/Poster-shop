@@ -7,7 +7,6 @@ header {
     justify-content: center;
     align-items: flex-start;
     position: relative;
-   
 }
 
 .heading {
@@ -62,4 +61,25 @@ header {
     font-size: 12px;
     padding: 3px;
 }
+
+
+@media screen and (max-width: 551px) {
+    header {
+        height: 35vh;       
+    }
+
+    .heading {
+        font-size: 35px;
+    }
+    
+    .header-img {
+        position: absolute;
+        bottom: 0;
+        width: 130px;
+    }
+
+    .cart-icon-frame {
+        right: 17%;
+    }
+} 
 

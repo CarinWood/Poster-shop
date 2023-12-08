@@ -43,11 +43,46 @@
     transition: all 0.3s ease-in-out;
 }
 
-
 .card-btn:hover {
     background-color: #8b1728;
 }
 
 .card-btn:active {
     transform: translateY(2px);
+}
+
+@media screen and (max-width: 551px) {
+    .card-img {
+        width: 145px;
+    }
+
+    .card-title {
+        margin-top: 10px;
+        font-size: 19px;    
+    }
+    
+    .card-text {
+        margin-top: 10px;
+        width: 145px;
+        font-size: 10px;
+    }
+
+    .card-btn {
+        font-size: 10px;
+        order: 2;
+    }
+
+    .price {
+        order: 1;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+
+    .btnPrice {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
