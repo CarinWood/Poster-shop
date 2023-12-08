@@ -38,6 +38,11 @@ header {
     cursor: pointer;
 }
 
+.cart-icon-frame:hover {
+    background-color: whitesmoke;
+    color: #e83f57;
+}
+
 .cart-icon {
     font-size: 20px;
 }
