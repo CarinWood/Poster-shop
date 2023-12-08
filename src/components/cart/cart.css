@@ -112,5 +112,12 @@
     .total {
         margin-left: -40px;
     }
+
+    .no-poster-msg {
+        text-align: center;
+        font-size: 16px;
+        opacity: 0.7;
+        letter-spacing: 0.2px;
+    }
     
 }
