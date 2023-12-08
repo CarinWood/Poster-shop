@@ -90,3 +90,27 @@
 .total {
     margin-left: -100px;
 }
+
+
+@media screen and (max-width: 551px) {
+    .cart {
+        width: 80%; 
+    }
+
+    .banner p {
+        font-size: 17px;
+    }
+    
+    .banner span {
+        width: 30px;
+    }
+
+    .gimmie-btn {
+        font-size: 12px;
+    }
+
+    .total {
+        margin-left: -40px;
+    }
+    
+}
