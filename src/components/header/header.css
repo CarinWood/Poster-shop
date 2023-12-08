@@ -79,7 +79,13 @@ header {
     }
 
     .cart-icon-frame {
+        width: 60px;
+        height: 60px;
         right: 8%;
+    }
+
+    .cart-icon {
+        font-size: 22px;
     }
 } 
 
